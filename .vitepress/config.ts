@@ -15,9 +15,9 @@ export default defineConfig({
       {
         text: 'プロジェクト',
         items: [
-          { text: 'タビアン株式会社', link: '/projects/tabian' },
           { text: 'LIRIS株式会社', link: '/projects/liris' },
           { text: 'タッチスポット株式会社', link: '/projects/touchspot' },
+          { text: 'タビアン株式会社', link: '/projects/tabian' },
           { text: 'SMILE CREATE GROUP', link: '/projects/smile-create' },
           { text: '個人開発', link: '/projects/side-projects' },
         ],
@@ -28,9 +28,9 @@ export default defineConfig({
         {
           text: 'プロジェクト',
           items: [
-            { text: 'タビアン株式会社（2022-現在）', link: '/projects/tabian' },
             { text: 'LIRIS株式会社（2023-現在）', link: '/projects/liris' },
             { text: 'タッチスポット（2022-2023）', link: '/projects/touchspot' },
+            { text: 'タビアン株式会社（2022-現在）', link: '/projects/tabian' },
             { text: 'SMILE CREATE（2018-2022）', link: '/projects/smile-create' },
             { text: '個人開発', link: '/projects/side-projects' },
           ],
