@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'ja',
   head: [
     ['meta', { property: 'og:title', content: '鈴木大輝 | フルスタックエンジニア' }],
-    ['meta', { property: 'og:description', content: '企画からリリースまで、1人でプロダクトを作れるエンジニアのポートフォリオ' }],
+    ['meta', { property: 'og:description', content: 'TypeScript / Vue.js / Nuxt3 / React / AWS / GCP — Web開発歴10年のフルスタックエンジニア' }],
     ['meta', { property: 'og:type', content: 'website' }],
   ],
   themeConfig: {
@@ -16,8 +16,11 @@ export default defineConfig({
       {
         text: 'プロジェクト',
         items: [
-          { text: 'TenStar 業務システム', link: '/projects/tenstar' },
+          { text: 'タビアン株式会社', link: '/projects/tabian' },
+          { text: 'LIRIS株式会社', link: '/projects/liris' },
+          { text: 'タッチスポット株式会社', link: '/projects/touchspot' },
           { text: 'QOHS Home', link: '/projects/qohs-home' },
+          { text: 'TenStar 業務システム', link: '/projects/tenstar' },
           { text: 'Webサイト制作', link: '/projects/web-sites' },
           { text: '個人開発', link: '/projects/side-projects' },
         ],
@@ -30,8 +33,11 @@ export default defineConfig({
         {
           text: 'プロジェクト',
           items: [
-            { text: 'TenStar 業務システム', link: '/projects/tenstar' },
+            { text: 'タビアン株式会社', link: '/projects/tabian' },
+            { text: 'LIRIS株式会社', link: '/projects/liris' },
+            { text: 'タッチスポット株式会社', link: '/projects/touchspot' },
             { text: 'QOHS Home', link: '/projects/qohs-home' },
+            { text: 'TenStar 業務システム', link: '/projects/tenstar' },
             { text: 'Webサイト制作', link: '/projects/web-sites' },
             { text: '個人開発', link: '/projects/side-projects' },
           ],
