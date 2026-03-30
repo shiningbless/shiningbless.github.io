@@ -15,10 +15,10 @@ export default defineConfig({
       {
         text: 'プロジェクト',
         items: [
-          { text: 'LIRIS株式会社', link: '/projects/liris' },
-          { text: 'タッチスポット株式会社', link: '/projects/touchspot' },
-          { text: 'タビアン株式会社', link: '/projects/tabian' },
-          { text: 'SMILE CREATE GROUP', link: '/projects/smile-create' },
+          { text: 'タビアン株式会社（本業）', link: '/projects/tabian' },
+          { text: 'SMILE CREATE GROUP（本業）', link: '/projects/smile-create' },
+          { text: 'LIRIS株式会社（副業）', link: '/projects/liris' },
+          { text: 'タッチスポット株式会社（副業）', link: '/projects/touchspot' },
           { text: '個人開発', link: '/projects/side-projects' },
         ],
       },
@@ -28,11 +28,17 @@ export default defineConfig({
         {
           text: 'プロジェクト',
           items: [
-            { text: 'LIRIS株式会社（2023-現在）', link: '/projects/liris' },
-            { text: 'タッチスポット（2022-2023）', link: '/projects/touchspot' },
-            { text: 'タビアン株式会社（2022-現在）', link: '/projects/tabian' },
-            { text: 'SMILE CREATE（2018-2022）', link: '/projects/smile-create' },
-            { text: '個人開発', link: '/projects/side-projects' },
+            { text: '本業', items: [
+              { text: 'タビアン株式会社（2022-現在）', link: '/projects/tabian' },
+              { text: 'SMILE CREATE（2018-2022）', link: '/projects/smile-create' },
+            ]},
+            { text: '副業', items: [
+              { text: 'LIRIS株式会社（2023-現在）', link: '/projects/liris' },
+              { text: 'タッチスポット（2022-2023）', link: '/projects/touchspot' },
+            ]},
+            { text: 'その他', items: [
+              { text: '個人開発', link: '/projects/side-projects' },
+            ]},
           ],
         },
       ],
