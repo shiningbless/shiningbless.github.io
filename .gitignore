@@ -1,0 +1,9 @@
+node_modules
+.vitepress/cache
+.vitepress/dist
+.claude/
+.gstack/
+CLAUDE.md
+.vitepress/CLAUDE.md
+projects/CLAUDE.md
+.github/workflows/CLAUDE.md
