@@ -51,4 +51,4 @@ features:
 
 **デザイン**: Adobe XD / PhotoShop
 
-→ [技術スタックの詳細](/skills)　|　[経歴の詳細](/about)　|　[お問い合わせ](/contact)
+→ [プロジェクト実績を見る](/projects/tabian)

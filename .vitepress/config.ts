@@ -12,7 +12,6 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'ホーム', link: '/' },
-      { text: '経歴', link: '/about' },
       {
         text: 'プロジェクト',
         items: [
@@ -25,8 +24,6 @@ export default defineConfig({
           { text: '個人開発', link: '/projects/side-projects' },
         ],
       },
-      { text: 'スキル', link: '/skills' },
-      { text: 'お問い合わせ', link: '/contact' },
     ],
     sidebar: {
       '/projects/': [
